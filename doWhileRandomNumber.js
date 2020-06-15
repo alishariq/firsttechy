@@ -39,3 +39,21 @@ do {
 } while  (parseInt(guess)!==randomNumber)
   document.write ("<h1> You guessed the correct number!</h1>");
   document.write ("It took you "+guessCount+" tries to guess the number "+randomNumber);
+
+
+
+
+
+
+
+
+// challenge of do while loop
+
+var secret;
+do {
+  secret = prompt("What is the secret password?");    
+} while (secret !== "sesame")
+document.write("You know the secret password. Welcome.");
+
+
+
